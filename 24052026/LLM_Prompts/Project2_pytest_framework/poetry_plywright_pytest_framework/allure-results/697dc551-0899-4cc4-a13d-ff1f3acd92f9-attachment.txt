@@ -1,0 +1,4 @@
+2026-05-25 23:00:07,422 [INFO] When: Executing POST https://restful-booker.herokuapp.com/auth
+2026-05-25 23:00:07,423 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:00:07,423 [INFO] When: Payload: {'username': 'admin'}
+2026-05-25 23:00:07,649 [INFO] When: Received HTTP 200 from POST https://restful-booker.herokuapp.com/auth

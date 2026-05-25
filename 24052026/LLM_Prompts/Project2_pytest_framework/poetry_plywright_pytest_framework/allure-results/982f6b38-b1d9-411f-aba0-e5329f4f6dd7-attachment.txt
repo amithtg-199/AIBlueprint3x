@@ -1,0 +1,3 @@
+2026-05-25 23:00:10,202 [INFO] When: Executing GET https://restful-booker.herokuapp.com/ping
+2026-05-25 23:00:10,202 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:00:10,490 [INFO] When: Received HTTP 201 from GET https://restful-booker.herokuapp.com/ping

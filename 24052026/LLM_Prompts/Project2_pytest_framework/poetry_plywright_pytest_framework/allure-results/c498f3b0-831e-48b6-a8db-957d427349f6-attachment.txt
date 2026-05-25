@@ -1,0 +1,10 @@
+ERROR    asyncio:base_events.py:1886 Exception in callback SyncBase._sync.<locals>.<lambda>() at C:\Users\AMITH\AppData\Local\pypoetry\Cache\virtualenvs\poetry-playwright-pytest-framework-v0cbTSej-py3.14\Lib\site-packages\playwright\_impl\_sync_base.py:111
+handle: <Handle SyncBase._sync.<locals>.<lambda>() at C:\Users\AMITH\AppData\Local\pypoetry\Cache\virtualenvs\poetry-playwright-pytest-framework-v0cbTSej-py3.14\Lib\site-packages\playwright\_impl\_sync_base.py:111>
+Traceback (most recent call last):
+  File "C:\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMITH\AppData\Local\pypoetry\Cache\virtualenvs\poetry-playwright-pytest-framework-v0cbTSej-py3.14\Lib\site-packages\playwright\_impl\_sync_base.py", line 111, in <lambda>
+    task.add_done_callback(lambda _: g_self.switch())
+                                     ~~~~~~~~~~~~~^^
+greenlet.error: cannot switch to a different thread (which happens to have exited)

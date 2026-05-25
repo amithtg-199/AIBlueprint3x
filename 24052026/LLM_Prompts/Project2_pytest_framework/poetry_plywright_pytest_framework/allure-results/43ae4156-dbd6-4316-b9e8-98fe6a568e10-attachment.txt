@@ -1,0 +1,1 @@
+GET /booking latency (10 requests) - Min: 227.50ms, Max: 361.56ms, Avg: 256.72ms

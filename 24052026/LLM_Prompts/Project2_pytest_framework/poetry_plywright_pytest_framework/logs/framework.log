@@ -1,0 +1,171 @@
+23:03:29 ERROR asyncio Exception in callback SyncBase._sync.<locals>.<lambda>() at C:\Users\AMITH\AppData\Local\pypoetry\Cache\virtualenvs\poetry-playwright-pytest-framework-v0cbTSej-py3.14\Lib\site-packages\playwright\_impl\_sync_base.py:111
+handle: <Handle SyncBase._sync.<locals>.<lambda>() at C:\Users\AMITH\AppData\Local\pypoetry\Cache\virtualenvs\poetry-playwright-pytest-framework-v0cbTSej-py3.14\Lib\site-packages\playwright\_impl\_sync_base.py:111>
+Traceback (most recent call last):
+  File "C:\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMITH\AppData\Local\pypoetry\Cache\virtualenvs\poetry-playwright-pytest-framework-v0cbTSej-py3.14\Lib\site-packages\playwright\_impl\_sync_base.py", line 111, in <lambda>
+    task.add_done_callback(lambda _: g_self.switch())
+                                     ~~~~~~~~~~~~~^^
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+23:03:31 ERROR asyncio Exception in callback SyncBase._sync.<locals>.<lambda>() at C:\Users\AMITH\AppData\Local\pypoetry\Cache\virtualenvs\poetry-playwright-pytest-framework-v0cbTSej-py3.14\Lib\site-packages\playwright\_impl\_sync_base.py:111
+handle: <Handle SyncBase._sync.<locals>.<lambda>() at C:\Users\AMITH\AppData\Local\pypoetry\Cache\virtualenvs\poetry-playwright-pytest-framework-v0cbTSej-py3.14\Lib\site-packages\playwright\_impl\_sync_base.py:111>
+Traceback (most recent call last):
+  File "C:\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMITH\AppData\Local\pypoetry\Cache\virtualenvs\poetry-playwright-pytest-framework-v0cbTSej-py3.14\Lib\site-packages\playwright\_impl\_sync_base.py", line 111, in <lambda>
+    task.add_done_callback(lambda _: g_self.switch())
+                                     ~~~~~~~~~~~~~^^
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+23:03:31 ERROR asyncio Exception in callback SyncBase._sync.<locals>.<lambda>() at C:\Users\AMITH\AppData\Local\pypoetry\Cache\virtualenvs\poetry-playwright-pytest-framework-v0cbTSej-py3.14\Lib\site-packages\playwright\_impl\_sync_base.py:111
+handle: <Handle SyncBase._sync.<locals>.<lambda>() at C:\Users\AMITH\AppData\Local\pypoetry\Cache\virtualenvs\poetry-playwright-pytest-framework-v0cbTSej-py3.14\Lib\site-packages\playwright\_impl\_sync_base.py:111>
+Traceback (most recent call last):
+  File "C:\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMITH\AppData\Local\pypoetry\Cache\virtualenvs\poetry-playwright-pytest-framework-v0cbTSej-py3.14\Lib\site-packages\playwright\_impl\_sync_base.py", line 111, in <lambda>
+    task.add_done_callback(lambda _: g_self.switch())
+                                     ~~~~~~~~~~~~~^^
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+23:03:31 ERROR asyncio Exception in callback SyncBase._sync.<locals>.<lambda>() at C:\Users\AMITH\AppData\Local\pypoetry\Cache\virtualenvs\poetry-playwright-pytest-framework-v0cbTSej-py3.14\Lib\site-packages\playwright\_impl\_sync_base.py:111
+handle: <Handle SyncBase._sync.<locals>.<lambda>() at C:\Users\AMITH\AppData\Local\pypoetry\Cache\virtualenvs\poetry-playwright-pytest-framework-v0cbTSej-py3.14\Lib\site-packages\playwright\_impl\_sync_base.py:111>
+Traceback (most recent call last):
+  File "C:\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMITH\AppData\Local\pypoetry\Cache\virtualenvs\poetry-playwright-pytest-framework-v0cbTSej-py3.14\Lib\site-packages\playwright\_impl\_sync_base.py", line 111, in <lambda>
+    task.add_done_callback(lambda _: g_self.switch())
+                                     ~~~~~~~~~~~~~^^
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+23:03:31 ERROR asyncio Exception in callback SyncBase._sync.<locals>.<lambda>() at C:\Users\AMITH\AppData\Local\pypoetry\Cache\virtualenvs\poetry-playwright-pytest-framework-v0cbTSej-py3.14\Lib\site-packages\playwright\_impl\_sync_base.py:111
+handle: <Handle SyncBase._sync.<locals>.<lambda>() at C:\Users\AMITH\AppData\Local\pypoetry\Cache\virtualenvs\poetry-playwright-pytest-framework-v0cbTSej-py3.14\Lib\site-packages\playwright\_impl\_sync_base.py:111>
+Traceback (most recent call last):
+  File "C:\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AMITH\AppData\Local\pypoetry\Cache\virtualenvs\poetry-playwright-pytest-framework-v0cbTSej-py3.14\Lib\site-packages\playwright\_impl\_sync_base.py", line 111, in <lambda>
+    task.add_done_callback(lambda _: g_self.switch())
+                                     ~~~~~~~~~~~~~^^
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+itpaid': True, 'bookingdates': {'checkin': '2018-01-01', 'checkout': '2019-01-01'}, 'additionalneeds': 'Breakfast'}
+2026-05-25 23:03:21,705 [INFO] When: Received HTTP 200 from POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:21,712 [INFO] When: Executing PUT https://restful-booker.herokuapp.com/booking/1426
+2026-05-25 23:03:21,712 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json', 'Cookie': 'token=080a6cba15a5b6d'}
+2026-05-25 23:03:21,712 [INFO] When: Payload: {'firstname': 'James', 'lastname': 'Brown', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '2018-01-01', 'checkout': '2019-01-01'}, 'additionalneeds': 'Breakfast'}
+2026-05-25 23:03:21,958 [INFO] When: Received HTTP 200 from PUT https://restful-booker.herokuapp.com/booking/1426
+2026-05-25 23:03:21,988 [INFO] When: Executing POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:21,989 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:21,989 [INFO] When: Payload: {'firstname': 'Jim', 'lastname': 'Brown', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '2018-01-01', 'checkout': '2019-01-01'}, 'additionalneeds': 'Breakfast'}
+2026-05-25 23:03:22,286 [INFO] When: Received HTTP 200 from POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:22,291 [INFO] When: Executing DELETE https://restful-booker.herokuapp.com/booking/1431
+2026-05-25 23:03:22,291 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json', 'Cookie': 'token=080a6cba15a5b6d'}
+2026-05-25 23:03:22,291 [INFO] When: Payload: {'firstname': 'Jim', 'lastname': 'Brown', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '2018-01-01', 'checkout': '2019-01-01'}, 'additionalneeds': 'Breakfast'}
+2026-05-25 23:03:22,512 [INFO] When: Received HTTP 201 from DELETE https://restful-booker.herokuapp.com/booking/1431
+2026-05-25 23:03:22,512 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking/1431
+2026-05-25 23:03:22,512 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json', 'Cookie': 'token=080a6cba15a5b6d'}
+2026-05-25 23:03:22,512 [INFO] When: Payload: {'firstname': 'Jim', 'lastname': 'Brown', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '2018-01-01', 'checkout': '2019-01-01'}, 'additionalneeds': 'Breakfast'}
+2026-05-25 23:03:22,739 [INFO] When: Received HTTP 404 from GET https://restful-booker.herokuapp.com/booking/1431
+2026-05-25 23:03:22,745 [INFO] When: Executing POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:22,746 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:22,746 [INFO] When: Payload: {'firstname': 'Jim', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '2018-01-01', 'checkout': '2019-01-01'}, 'additionalneeds': 'Breakfast'}
+2026-05-25 23:03:22,975 [INFO] When: Received HTTP 500 from POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:22,982 [INFO] When: Executing POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:22,982 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:22,983 [INFO] When: Payload: {'firstname': 'Jim', 'lastname': 'Brown', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '01-01-2018', 'checkout': '2019-01-01'}, 'additionalneeds': 'Breakfast'}
+2026-05-25 23:03:23,257 [INFO] When: Received HTTP 200 from POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:23,263 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking/999999
+2026-05-25 23:03:23,263 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:23,487 [INFO] When: Received HTTP 404 from GET https://restful-booker.herokuapp.com/booking/999999
+2026-05-25 23:03:23,494 [INFO] When: Executing POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:23,494 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:23,495 [INFO] When: Payload: {'firstname': 'Jim', 'lastname': 'Brown', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '2018-01-01', 'checkout': '2019-01-01'}, 'additionalneeds': 'Breakfast'}
+2026-05-25 23:03:24,404 [INFO] When: Received HTTP 200 from POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:24,411 [INFO] When: Executing PUT https://restful-booker.herokuapp.com/booking/1448
+2026-05-25 23:03:24,411 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:24,412 [INFO] When: Payload: {'firstname': 'James', 'lastname': 'Brown', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '2018-01-01', 'checkout': '2019-01-01'}, 'additionalneeds': 'Breakfast'}
+2026-05-25 23:03:24,635 [INFO] When: Received HTTP 403 from PUT https://restful-booker.herokuapp.com/booking/1448
+2026-05-25 23:03:24,644 [INFO] When: Executing GET https://restful-booker.herokuapp.com/ping
+2026-05-25 23:03:24,644 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:24,949 [INFO] When: Received HTTP 201 from GET https://restful-booker.herokuapp.com/ping
+2026-05-25 23:03:24,956 [INFO] NonFunctionalTests: Health check response time: 311.91 ms
+2026-05-25 23:03:24,964 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:24,964 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:25,479 [INFO] When: Received HTTP 200 from GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:25,479 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:25,479 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:25,734 [INFO] When: Received HTTP 200 from GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:25,735 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:25,735 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:25,963 [INFO] When: Received HTTP 200 from GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:25,963 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:25,963 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:26,193 [INFO] When: Received HTTP 200 from GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:26,193 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:26,193 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:26,423 [INFO] When: Received HTTP 200 from GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:26,423 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:26,423 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:26,655 [INFO] When: Received HTTP 200 from GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:26,655 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:26,656 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:26,883 [INFO] When: Received HTTP 200 from GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:26,883 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:26,883 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:27,114 [INFO] When: Received HTTP 200 from GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:27,114 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:27,114 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:27,344 [INFO] When: Received HTTP 200 from GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:27,344 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:27,344 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:27,580 [INFO] When: Received HTTP 200 from GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:27,581 [INFO] NonFunctionalTests: GET /booking latency (10 requests) - Min: 227.83ms, Max: 515.75ms, Avg: 261.71ms
+2026-05-25 23:03:27,590 [INFO] When: Executing POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:27,590 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:27,591 [INFO] When: Payload: {'firstname': 'PerfUser0', 'lastname': 'Brown', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '2018-01-01', 'checkout': '2019-01-01'}, 'additionalneeds': 'Breakfast'}
+2026-05-25 23:03:27,852 [INFO] When: Received HTTP 200 from POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:27,853 [INFO] When: Executing POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:27,853 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:27,854 [INFO] When: Payload: {'firstname': 'PerfUser1', 'lastname': 'Brown', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '2018-01-01', 'checkout': '2019-01-01'}, 'additionalneeds': 'Breakfast'}
+2026-05-25 23:03:28,123 [INFO] When: Received HTTP 200 from POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:28,123 [INFO] When: Executing POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:28,123 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:28,123 [INFO] When: Payload: {'firstname': 'PerfUser2', 'lastname': 'Brown', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '2018-01-01', 'checkout': '2019-01-01'}, 'additionalneeds': 'Breakfast'}
+2026-05-25 23:03:28,347 [INFO] When: Received HTTP 200 from POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:28,347 [INFO] When: Executing POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:28,347 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:28,347 [INFO] When: Payload: {'firstname': 'PerfUser3', 'lastname': 'Brown', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '2018-01-01', 'checkout': '2019-01-01'}, 'additionalneeds': 'Breakfast'}
+2026-05-25 23:03:28,635 [INFO] When: Received HTTP 200 from POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:28,636 [INFO] When: Executing POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:28,636 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:28,636 [INFO] When: Payload: {'firstname': 'PerfUser4', 'lastname': 'Brown', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '2018-01-01', 'checkout': '2019-01-01'}, 'additionalneeds': 'Breakfast'}
+2026-05-25 23:03:28,942 [INFO] When: Received HTTP 200 from POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:28,942 [INFO] NonFunctionalTests: POST /booking latency (5 requests) - Min: 223.84ms, Max: 306.69ms, Avg: 270.45ms
+2026-05-25 23:03:28,951 [INFO] NonFunctionalTests: Launching 5 concurrent GET requests
+2026-05-25 23:03:28,965 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:28,966 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:28,979 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:28,979 [ERROR] NonFunctionalTests: Thread worker 0 failed: Unexpected failure executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:28,981 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:28,981 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:28,983 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:28,984 [ERROR] NonFunctionalTests: Thread worker 2 failed: Unexpected failure executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:28,985 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:28,987 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:28,985 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:28,988 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:28,989 [ERROR] NonFunctionalTests: Thread worker 1 failed: Unexpected failure executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:28,991 [ERROR] NonFunctionalTests: Thread worker 3 failed: Unexpected failure executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:28,991 [ERROR] NonFunctionalTests: Thread worker 4 failed: Unexpected failure executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:29,009 [INFO] NonFunctionalTests: Concurrency Results (5 workers) - Success: 0, Failures: 5, Avg Latency: 0.00ms
+2026-05-25 23:03:29,016 [INFO] NonFunctionalTests: Verified base URL uses secure protocol: https://restful-booker.herokuapp.com
+2026-05-25 23:03:29,025 [INFO] When: Executing PUT https://restful-booker.herokuapp.com/booking/1
+2026-05-25 23:03:29,025 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:29,026 [INFO] When: Payload: {'firstname': 'James', 'lastname': 'Brown', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '2018-01-01', 'checkout': '2019-01-01'}, 'additionalneeds': 'Breakfast'}
+2026-05-25 23:03:31,227 [INFO] When: Received HTTP 403 from PUT https://restful-booker.herokuapp.com/booking/1
+2026-05-25 23:03:31,228 [INFO] When: Executing DELETE https://restful-booker.herokuapp.com/booking/1
+2026-05-25 23:03:31,228 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:31,228 [INFO] When: Payload: {'firstname': 'James', 'lastname': 'Brown', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '2018-01-01', 'checkout': '2019-01-01'}, 'additionalneeds': 'Breakfast'}
+2026-05-25 23:03:31,509 [INFO] When: Received HTTP 403 from DELETE https://restful-booker.herokuapp.com/booking/1
+2026-05-25 23:03:31,517 [INFO] NonFunctionalTests: Observed: No documented rate limits in the API Specification. Rate limiting is measurement-only.
+2026-05-25 23:03:31,523 [INFO] NonFunctionalTests: Observed: Insufficient information to proceed with Backup & Recovery testing (no API or process documented in Spec).

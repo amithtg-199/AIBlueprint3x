@@ -1,0 +1,21 @@
+2026-05-25 23:01:44,630 [INFO] When: Executing POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:01:44,630 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:01:44,630 [INFO] When: Payload: {'firstname': 'PerfUser0', 'lastname': 'Brown', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '2018-01-01', 'checkout': '2019-01-01'}, 'additionalneeds': 'Breakfast'}
+2026-05-25 23:01:44,975 [INFO] When: Received HTTP 200 from POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:01:44,975 [INFO] When: Executing POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:01:44,975 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:01:44,975 [INFO] When: Payload: {'firstname': 'PerfUser1', 'lastname': 'Brown', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '2018-01-01', 'checkout': '2019-01-01'}, 'additionalneeds': 'Breakfast'}
+2026-05-25 23:01:45,376 [INFO] When: Received HTTP 200 from POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:01:45,376 [INFO] When: Executing POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:01:45,377 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:01:45,377 [INFO] When: Payload: {'firstname': 'PerfUser2', 'lastname': 'Brown', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '2018-01-01', 'checkout': '2019-01-01'}, 'additionalneeds': 'Breakfast'}
+2026-05-25 23:01:45,619 [INFO] When: Received HTTP 200 from POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:01:45,619 [INFO] When: Executing POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:01:45,619 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:01:45,619 [INFO] When: Payload: {'firstname': 'PerfUser3', 'lastname': 'Brown', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '2018-01-01', 'checkout': '2019-01-01'}, 'additionalneeds': 'Breakfast'}
+2026-05-25 23:01:45,927 [INFO] When: Received HTTP 200 from POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:01:45,927 [INFO] When: Executing POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:01:45,928 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:01:45,928 [INFO] When: Payload: {'firstname': 'PerfUser4', 'lastname': 'Brown', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '2018-01-01', 'checkout': '2019-01-01'}, 'additionalneeds': 'Breakfast'}
+2026-05-25 23:01:46,159 [INFO] When: Received HTTP 200 from POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:01:46,159 [INFO] NonFunctionalTests: POST /booking latency (5 requests) - Min: 231.57ms, Max: 401.25ms, Avg: 305.82ms

@@ -1,0 +1,12 @@
+2026-05-25 23:02:33,718 [INFO] When: Executing POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:02:33,718 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:02:33,719 [INFO] When: Payload: {'firstname': 'Jim', 'lastname': 'Brown', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '2018-01-01', 'checkout': '2019-01-01'}, 'additionalneeds': 'Breakfast'}
+2026-05-25 23:02:33,973 [INFO] When: Received HTTP 200 from POST https://restful-booker.herokuapp.com/booking
+2026-05-25 23:02:33,983 [INFO] When: Executing DELETE https://restful-booker.herokuapp.com/booking/1014
+2026-05-25 23:02:33,984 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json', 'Cookie': 'token=581907833f0ac29'}
+2026-05-25 23:02:33,984 [INFO] When: Payload: {'firstname': 'Jim', 'lastname': 'Brown', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '2018-01-01', 'checkout': '2019-01-01'}, 'additionalneeds': 'Breakfast'}
+2026-05-25 23:02:34,226 [INFO] When: Received HTTP 201 from DELETE https://restful-booker.herokuapp.com/booking/1014
+2026-05-25 23:02:34,226 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking/1014
+2026-05-25 23:02:34,227 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json', 'Cookie': 'token=581907833f0ac29'}
+2026-05-25 23:02:34,227 [INFO] When: Payload: {'firstname': 'Jim', 'lastname': 'Brown', 'totalprice': 111, 'depositpaid': True, 'bookingdates': {'checkin': '2018-01-01', 'checkout': '2019-01-01'}, 'additionalneeds': 'Breakfast'}
+2026-05-25 23:02:34,465 [INFO] When: Received HTTP 404 from GET https://restful-booker.herokuapp.com/booking/1014

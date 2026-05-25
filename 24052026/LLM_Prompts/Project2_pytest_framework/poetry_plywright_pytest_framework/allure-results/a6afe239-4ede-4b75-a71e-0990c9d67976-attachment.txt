@@ -1,0 +1,17 @@
+2026-05-25 23:00:55,882 [INFO] NonFunctionalTests: Launching 5 concurrent GET requests
+2026-05-25 23:00:55,894 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:00:55,895 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:00:55,900 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:00:55,901 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:00:55,902 [ERROR] NonFunctionalTests: Thread worker 0 failed: Unexpected failure executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:00:55,903 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:00:55,903 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:00:55,905 [ERROR] NonFunctionalTests: Thread worker 1 failed: Unexpected failure executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:00:55,907 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:00:55,907 [ERROR] NonFunctionalTests: Thread worker 2 failed: Unexpected failure executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:00:55,907 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:00:55,907 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:00:55,908 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:00:55,910 [ERROR] NonFunctionalTests: Thread worker 3 failed: Unexpected failure executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:00:55,910 [ERROR] NonFunctionalTests: Thread worker 4 failed: Unexpected failure executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:00:55,920 [INFO] NonFunctionalTests: Concurrency Results (5 workers) - Success: 0, Failures: 5, Avg Latency: 0.00ms

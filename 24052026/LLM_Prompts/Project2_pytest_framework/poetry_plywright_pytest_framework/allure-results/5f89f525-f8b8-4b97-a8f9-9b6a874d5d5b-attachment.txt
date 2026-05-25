@@ -1,0 +1,1 @@
+2026-05-25 23:02:39,979 [INFO] NonFunctionalTests: Verified base URL uses secure protocol: https://restful-booker.herokuapp.com

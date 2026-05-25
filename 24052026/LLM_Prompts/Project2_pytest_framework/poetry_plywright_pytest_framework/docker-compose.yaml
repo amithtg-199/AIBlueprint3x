@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  api-tests:
+    build: .
+    environment:
+      - API_BASE_URL=https://restful-booker.herokuapp.com
+      - API_TIMEOUT_MS=30000
+    volumes:
+      - ./reports:/app/reports
+      - ./logs:/app/logs
+      - ./allure-results:/app/allure-results

@@ -1,0 +1,1 @@
+POST /booking latency (5 requests) - Min: 222.44ms, Max: 249.25ms, Avg: 229.98ms

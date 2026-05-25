@@ -1,0 +1,31 @@
+2026-05-25 23:03:24,964 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:24,964 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:25,479 [INFO] When: Received HTTP 200 from GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:25,479 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:25,479 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:25,734 [INFO] When: Received HTTP 200 from GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:25,735 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:25,735 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:25,963 [INFO] When: Received HTTP 200 from GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:25,963 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:25,963 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:26,193 [INFO] When: Received HTTP 200 from GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:26,193 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:26,193 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:26,423 [INFO] When: Received HTTP 200 from GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:26,423 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:26,423 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:26,655 [INFO] When: Received HTTP 200 from GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:26,655 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:26,656 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:26,883 [INFO] When: Received HTTP 200 from GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:26,883 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:26,883 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:27,114 [INFO] When: Received HTTP 200 from GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:27,114 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:27,114 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:27,344 [INFO] When: Received HTTP 200 from GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:27,344 [INFO] When: Executing GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:27,344 [INFO] When: Headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
+2026-05-25 23:03:27,580 [INFO] When: Received HTTP 200 from GET https://restful-booker.herokuapp.com/booking
+2026-05-25 23:03:27,581 [INFO] NonFunctionalTests: GET /booking latency (10 requests) - Min: 227.83ms, Max: 515.75ms, Avg: 261.71ms
