@@ -1,0 +1,33 @@
+Scenario,TID,Test Data,Test Case Description,Pre-Condition,Test Steps,Expected Result,Actual Result,Status,Executed By (QA Name),Misc (Comments),Priority,Is Automated
+"Create Auth Token",TC-F001,"username=admin, password=password123","Verify successful Token creation with valid username & password","API available","1. POST https://restful-booker.herokuapp.com/auth with JSON body containing username=admin and password=password123
+2. Header: Content-Type: application/json
+3. Fire the request and capture response","HTTP 200 and response body contains a token field (string). Trace: PRD Scope: Authentication; Inclusions: Auth - CreateToken","","","","High","No"
+"Create Booking - Valid Data",TC-F002,"Valid booking data","Verify successful booking creation with valid payload","API available","1. POST https://restful-booker.herokuapp.com/booking with Content-Type: application/json
+2. Body: firstname=Jim, lastname=Brown, totalprice=111, depositpaid=true, bookingdates.checkin=2018-01-01, bookingdates.checkout=2019-01-01, additionalneeds=Breakfast
+3. Header: Accept: application/json
+4. Fire the request","HTTP 200 and response contains bookingid and booking object matching submitted data. Trace: PRD Scope: Create (POST) Operations","","","","High","No"
+"Create Booking - Missing Mandatory Field",TC-F003,"JSON missing lastname","Verify API rejects booking creation when mandatory field is missing","API available","1. POST /booking with JSON body missing 'lastname'
+2. Header: Content-Type: application/json
+3. Fire the request","HTTP 4xx and validation message returned; booking not created. Trace: PRD Scope: Data Validation; Inclusions: Create (POST)","","","","High","No"
+"Create Booking - Invalid Date Format",TC-F004,"bookingdates.checkin=01-01-2018 (invalid format)","Verify API rejects booking when date format invalid","API available","1. POST /booking with bookingdates.checkin=01-01-2018 (invalid format)
+2. Header: Content-Type: application/json
+3. Fire the request","HTTP 4xx and validation error about date format; booking not created. Trace: PRD Scope: Data Validation; Inclusions: Create (POST)","","","","Medium","No"
+"Get Booking by ID - Existing",TC-F005,"Existing bookingid (from TC-F002)","Verify retrieving a booking by a valid ID returns correct data","Booking exists","1. GET https://restful-booker.herokuapp.com/booking/{id}
+2. Header: Accept: application/json
+3. Fire the request","HTTP 200 and body contains booking fields matching stored data. Trace: PRD Scope: Read (GET) Operations","","","","High","No"
+"Get Booking by ID - Non-Existent",TC-F006,"Non-existent bookingid=999999","Verify API returns appropriate response for non-existent bookingid","API available","1. GET /booking/999999
+2. Header: Accept: application/json
+3. Fire the request","HTTP 404 or empty response as per API behavior; no booking data returned. Trace: PRD Scope: Read (GET) Operations and Error Handling","","","","Medium","No"
+"Get Bookings with Query Filters",TC-F007,"Query: ?firstname=Sally&checkin=2013-02-23","Verify filtering by firstname and date returns matching booking IDs","Bookings with matching criteria exist","1. GET /booking?firstname=Sally&checkin=2013-02-23
+2. Header: Accept: application/json
+3. Fire the request","HTTP 200 and response is an array of objects with bookingid fields that match criteria. Trace: PRD Scope: Read (GET) Operations","","","","Medium","No"
+"Update Booking (PUT) with Auth",TC-F008,"Valid updated booking data; valid token from TC-F001","Verify full update of booking when authorized","Booking exists; auth token available","1. Obtain token via POST /auth with valid credentials
+2. PUT /booking/{id} with Content-Type: application/json and Cookie: token=<token> or Authorization header
+3. Body: full booking JSON with updated fields
+4. Fire the request","HTTP 200 and response body reflects updated booking; data persisted. Trace: PRD Scope: Update (PUT) Operations and Authentication","","","","High","No"
+"Update Booking (PUT) without Auth",TC-F009,"Valid booking data; no token","Verify update is rejected when not authorized","Booking exists","1. PUT /booking/{id} without Cookie or Authorization header
+2. Header: Content-Type: application/json
+3. Fire the request","HTTP 4xx (401/403) and no update occurs. Trace: PRD Scope: Authentication and Authorization","","","","High","No"
+"Delete Booking with Auth",TC-F010,"Valid bookingid and valid token","Verify deletion of booking when authorized","Booking exists; auth token available","1. Obtain token via POST /auth
+2. DELETE /booking/{id} with Cookie: token=<token> or Authorization header
+3. Fire the request","HTTP 200 (OK) and subsequent GET /booking/{id} returns 404 or not found. Trace: PRD Scope: Delete (DELETE) Operations and Authentication","","","","High","No"
