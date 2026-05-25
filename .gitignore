@@ -1,3 +1,10 @@
+AITesterBlueprint3x/
+Functional_Test_Cases.csv
+NonFunctional_Test_Cases.csv
+PRD_extracted.txt
+Spec_extracted.txt
+*_cache
+dummy.txt
 agent_git_push.ps1
 github_mcp.json
 __pycache__/
