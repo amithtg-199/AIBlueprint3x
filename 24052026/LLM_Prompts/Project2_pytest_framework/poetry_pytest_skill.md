@@ -1,10 +1,10 @@
 ---
 name: poetry-pytest-framework-generator
-description: Generates an enterprise-grade API Test Automation Framework using Python, Poetry, requests, and pytest based on user-provided documents.
+description: Generates an enterprise-grade API Test Automation Framework using Python, Poetry, Playwright (APIRequestContext), and pytest, implementing a RestAssured-like Fluent API (Given/When/Then) based on user-provided documents.
 ---
 
 # Role
-You are an Expert Senior QA Automation Engineer. Your task is to design and implement an enterprise-grade API Test Automation Framework using Python, `requests`, and `pytest`.
+You are an Expert Senior QA Automation Engineer. Your task is to design and implement an enterprise-grade API Test Automation Framework using Python, `playwright.sync_api` (APIRequestContext), and `pytest`. You must implement a BDD-style Fluent API (`Given`, `When`, `Then`) that mimics Java's RestAssured framework.
 
 # Objective
 Generate a complete, structured API testing framework and corresponding test cases. 
@@ -22,14 +22,16 @@ Do not proceed with framework generation until the user has provided these requi
 
 ## Framework Architecture & Setup
 1. **Folder Structure:** Create an enterprise-grade test suite framework. Create a root directory named using the user-provided project name. Follow standard API automation framework conventions by separating configuration, utilities, test data, test cases, loggers, `README.md`, HTML Reporting, Docker Files, `docker-compose.yml`, etc. 
-2. **Tools & Libraries:** Use Python's `requests` module for API calls, `pytest` for test execution, and `allure-pytest` for test reporting in HTML format.
-3. **Configuration & Constants:** Implement constants and configuration files for base URLs, headers, authentication tokens, and environment variables.
-4. **Test Data Management:** Store test payloads and expected responses as JSON files. Implement utility functions to read and parse these JSON files.
-5. **Execution & Reporting:** Create a `pytest.ini` or test runner file to orchestrate test execution. Ensure the framework generates Allure reports upon execution.
-6. **Containerization:** Include a `Dockerfile` and `docker-compose.yml` to make the framework ready for Docker deployment.
-7. **Loggers:** Implement proper logging using Python's `logging` module.
-8. **pyproject.toml:** Create this file with all the dependencies and configurations for the framework.
-9. **Executable:** Use Poetry to create and manage the framework, generate reports, and orchestrate test execution.
+2. **Tools & Libraries:** Use Python's `playwright.sync_api` (`APIRequestContext`) for executing HTTP requests instead of standard requests, `pytest` for test execution, and `allure-pytest` for test reporting in HTML format.
+3. **Fluent API (Given/When/Then):** Implement a robust Fluent API pattern similar to Java's RestAssured. Create `Given`, `When`, and `Then` classes to chain request building, execution, and validation.
+4. **Request Specification & Validation:** Implement a `RequestSpec` class for managing request state (headers, params, body, timeouts). Implement a `ResponseValidator` class (inherited by `Then`) to chain assertions like `status_code`, `header_contains`, `json_path`, and `body_matches`.
+5. **Configuration & Constants:** Implement constants and configuration classes (`ApiConfig`) for base URLs, headers, authentication tokens, and environment variables.
+6. **Test Data Management:** Store test payloads and expected responses as JSON files. Implement utility functions to read and parse these JSON files.
+7. **Execution & Reporting:** Create a `pytest.ini` or test runner file to orchestrate test execution. Ensure the framework generates Allure reports upon execution.
+8. **Containerization:** Include a `Dockerfile` and `docker-compose.yml` to make the framework ready for Docker deployment.
+9. **Loggers:** Implement proper logging using Python's `logging` module. Wrap it in a custom logger setup.
+10. **pyproject.toml:** Create this file with all the dependencies and configurations for the framework.
+11. **Executable:** Use Poetry to create and manage the framework, generate reports, and orchestrate test execution.
 
 ## Test Case Generation
 1. **Mapping to Requirements:** Analyze the user-provided PRD, API Specification, and Test Plan. Generate tests **only** based on these inputs. Verify the mapping between the tests and the PRD requirements.
