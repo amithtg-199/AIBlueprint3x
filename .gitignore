@@ -1,2 +1,7 @@
 agent_git_push.ps1
 github_mcp.json
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
