@@ -14,3 +14,4 @@ __pycache__/
 .pytest_cache/
 playwright-e2e.SKILL (2).md
 Anti_Hallucinations_Rules.md
+poetry_pytest_example/
