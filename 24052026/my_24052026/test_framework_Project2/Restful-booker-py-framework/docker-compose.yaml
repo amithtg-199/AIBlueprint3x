@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  restful-booker-tests:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: restful-booker-tests:latest
+    volumes:
+      - ./resources:/app/resources:ro
+    environment:
+      - PYTHONPATH=/app
+    command: ["python", "run_tests.py"]
+    restart: 'no'

@@ -5,11 +5,8 @@ WORKDIR /app
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY Restful-booker-py-framework ./Restful-booker-py-framework
-COPY testcases ./testcases
-COPY pytest.ini ./pytest.ini
-COPY run_tests.py ./run_tests.py
+COPY . .
 
-ENV PYTHONPATH="/app/Restful-booker-py-framework"
+ENV PYTHONPATH="/app"
 
 ENTRYPOINT ["python", "run_tests.py"]

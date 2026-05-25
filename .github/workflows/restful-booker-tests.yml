@@ -1,0 +1,32 @@
+name: Restful Booker Test Suite
+
+on:
+  push:
+    paths:
+      - '24052026/my_24052026/test_framework_Project2/Restful-booker-py-framework/**'
+  pull_request:
+    paths:
+      - '24052026/my_24052026/test_framework_Project2/Restful-booker-py-framework/**'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build Docker image
+        run: |
+          cd 24052026/my_24052026/test_framework_Project2/Restful-booker-py-framework
+          docker build -t restful-booker-tests .
+
+      - name: Run tests in Docker
+        run: |
+          cd 24052026/my_24052026/test_framework_Project2/Restful-booker-py-framework
+          docker run --rm restful-booker-tests
