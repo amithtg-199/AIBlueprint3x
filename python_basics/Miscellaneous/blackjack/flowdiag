@@ -1,0 +1,9 @@
+2-10 cards = face value i.e. 2=2, 10=10
+J, Q, K = 10
+A = 1 or 11 depending on the if the sum of cards is > 21 A becomes 1, else 11
+If sum is 21 = BLACKJACK!!!
+If sum > 21 = BUST you loose
+if dealer score > player score = DEALER WINS
+if dealer score < player score = PLAYER WINS
+if dealer score == player score = DRAW
+if dealer has < 17 i.e is has hand and he needs to draw cards until he has >=17 cards.

@@ -1,0 +1,46 @@
+import art
+import random
+print(logo)
+print(Welcome)
+num_guess = random.choice(range(1,101))
+
+
+def guess(level):
+    num_lives=0
+    if global level == "easy":
+        num_lives=10
+    elif global level == "hard":
+        num_lives=5
+
+    is_guess=True
+    while num_lives >0 and is_guess is True:
+        print(You have {num_lives} attempts remaining to guess the number)
+        guess=int(input("Make a guess: "))
+        while True:
+            guess = int(guess)
+            break
+        except ValueError:
+            print("You enterd a non-integer value, you loose a life")
+            num_lives -= 1
+        if guess == num_guess:
+            print(f"You Win!! guessed correct number {guess}")
+            is_guess = False
+        elif guess < num_guess:
+            print("Too Low \n Guess Again!")
+            num_lives-=1
+        elif guess > num_guess:
+            print("Too High \n Guess Again!")
+            num_lives-=1
+    print("You've run out of guesses. Refresh the page to run again")
+    exit()
+
+game_level = input(Choose a difficulty. Type 'easy' or 'hard': ).lower()
+while game_level not in ['easy','hard']:
+    game_level = input(kindly input only 'easy' or 'hard')
+
+guess(game_level)
+
+
+
+
+
